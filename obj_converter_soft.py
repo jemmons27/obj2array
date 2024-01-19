@@ -8,7 +8,7 @@ from collections import defaultdict
 data_path = './obj_data/'
 output_folder = './output/'
 
-file_name = sys.argv[1] + '.obj'
+file_name = 'camera' + '.obj'
 
 def normalize_CVV(vertexArray):
     va = np.array(vertexArray).astype(float)
